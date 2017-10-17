@@ -10,7 +10,7 @@ class RestaurantsController < ApplicationController
   end
 
   def show
-    'the money!!!'
+    @restaurant = Restaurant.find(params[:id])
   end
 
   private
