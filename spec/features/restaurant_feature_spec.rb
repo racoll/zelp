@@ -5,7 +5,7 @@ feature 'Restaurant' do
   context "no restaurants have been added" do
     scenario "should display a link to add a restaurant" do
       visit '/restaurants'
-      expect(page).to have_link 'Add Restaurant'
+      expect(page).to have_link 'Add a New Restaurant'
     end
   end
 
